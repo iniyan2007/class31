@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class 31 In Class Work - Iniyan</title>
+        <style>
+            .figure1{
+                width: 200px;
+                height: 200px;
+                background-color: cadetblue;
+                animation-name: motion1;
+                animation-duration: 4s;
+                animation-iteration-count: 3;
+                position: relative;
+            }
+            
+            @keyframes motion1 {
+                from{background-color: cadetblue;}
+                to{background-color: blueviolet;}
+
+                0% {left:0px; top:0px;}
+                25% {left:500px; top:0px;}
+                50% {left:500px; top:500px;}
+                75% {left:0px; top:500px;}
+                100% {left:0px; top:0px;}
+                    
+                }
+            .figure2 {
+                width: 200px;
+                height:200px;
+                background-color: cadetblue;
+                animation-name: motion2;
+                animation-duration: 8s;
+                animation-iteration-count: 3;
+                border-radius: 100%;
+                position:relative;
+            }
+            @keyframes motion2{
+                0% {background-color: cadetblue;}
+                25% {background-color: purple;}
+                50% {background-color: limegreen;}
+                75% {background-color: whitesmoke;}
+                100% {background-color: rgb(40, 51, 254);}
+                0% {left:0px; top:0px;}
+                25% {left:1000px; top:0px;}
+                50% {left:1000px; top:1000px;}
+                75% {left:0px; top:1000px;}
+                100% {left:0px; top:0px;}
+            }
+            
+            
+            .figure3{
+                width: 200px;
+                height:200px;
+                background:linear-gradient(45deg,red,blue);
+                animation-name: motion;
+                animation-duration: 8s;
+                animation-iteration-count: 3;
+                position: relative;
+            }
+
+            @keyframes motion{
+                0% {left:0px; top:0px;}
+                25% {left:200px; top:0px;}
+                50% {left:200px; top:200px;}
+                75% {left:0px; top:200px;}
+                100% {left:0px; top:0px;}
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <p class="figure1"></p>
+        <p class="figure2"></p>
+        <p class="figure3"></p>
+    </body>
+</html>
